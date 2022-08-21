@@ -1,6 +1,13 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int main(){
-  cout<<"Hello"<<'\n';
-  return 0;
+    int no;
+    jump:
+    cin>>no;
+    if(no==4){
+        cout<<"Well guessed!"<<'\n';
+    }else{
+        goto jump;
+    }
+    return 0;
 }
